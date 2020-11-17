@@ -18,7 +18,7 @@ export default class CalculatorScreen extends React.Component {
         var calc = new global.swisscalc.calc.calculator();
             
         // Calculate: 12 + 45 = 	
-        calc.addDigit("1");
+        calc.addDigit("2");
         calc.addDigit("2");
         calc.addBinaryOperator(oc.AdditionOperator);
         calc.addDigit("4");
